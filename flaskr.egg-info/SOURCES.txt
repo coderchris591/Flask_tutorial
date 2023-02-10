@@ -1,4 +1,5 @@
 MANIFEST.in
+setup.cfg
 setup.py
 flaskr/__init__.py
 flaskr/auth.py
@@ -17,3 +18,7 @@ flaskr/templates/auth/register.html
 flaskr/templates/blog/create.html
 flaskr/templates/blog/index.html
 flaskr/templates/blog/update.html
+tests/test_auth.py
+tests/test_blog.py
+tests/test_db.py
+tests/test_factory.py
